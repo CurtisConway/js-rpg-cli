@@ -1,0 +1,25 @@
+{
+  "name": "js-rpg-cli",
+  "version": "0.0.1",
+  "description": "A text based RPG command line interface built using js-rpg-maker.",
+  "main": "index.js",
+  "repository": "https://github.com/CurtisConway/js-rpg-cli.git",
+  "author": "Curtis <curtis.conway14@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "commander": "^4.1.0",
+    "coveralls": "^3.0.6",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "esm": "^3.2.25",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "coverageDirectory": "tests/coverage"
+  }
+}
