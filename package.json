@@ -7,6 +7,9 @@
   "author": "Curtis <curtis.conway14@gmail.com>",
   "license": "MIT",
   "private": false,
+  "bin": {
+    "jr-rpg-cli": "./index.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
@@ -17,7 +20,8 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "esm": "^3.2.25",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "js-rpg-maker": "git+https://git@github.com/CurtisConway/js-rpg-maker.git#master"
   },
   "jest": {
     "coverageDirectory": "tests/coverage"
